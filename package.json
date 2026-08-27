@@ -1,0 +1,12 @@
+{
+  "name": "agriculture-crop-advisor-root",
+  "version": "1.0.0",
+  "description": "AI-Powered Agriculture Crop Advisory Assistant Root Configuration",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "db:migrate": "npm run migrate --prefix server",
+    "build:all": "npm run build --prefix client && npm run build --prefix server"
+  }
+}
